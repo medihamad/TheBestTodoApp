@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To do List | welcome</title>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" type="text/css" href="Assets/css/todostyle.css">
+	<script type="text/javascript" src="Assets/js/MyJs.js"></script>
+</head>
+
+
+<body>
+
+
+	<header>
+		<div class="container">
+			<h1 class="todo-title">Todo  List</h1>
+		</div>
+	</header>
+
+	<section id="about">
+		<div class="container">
+			<div class="organize">
+				<h1 class="black">Organize life</h1> 
+				<h1 class="orange">Then go enjoy it…</h1>
+				<p>Life can feel overwhelming. but it doesn’t have to. TodoList lets you keep track of everything in one place, so you can get it all done and enjoy more peace of mind along the way.
+
+				</p>
+			</div>
+		
+
+			<section id="login-section">
+				<div class="container">
+					<div class="login-content">
+						<h1>Login</h1>
+						<p class="please">Please Login to continue</p>
+
+						<div class="log-form">
+							<form                                                                                                                                                                        >
+								<p class="user">username</p><input class="field" type="text" name="us" />
+								<p class="pass txt">password</p><input  class="field passwordfield" type="password" name="ps" />
+								<input type="submit" name="bt" class="btn" value="Login" />
+							</form>
+						</div>
+
+						<div id="forgot-password">
+							<p onclick="signing()">FORGOT PASSWORD?</p>
+						</div>
+						
+						<hr/>
+
+						<div id="signup-div">
+							<p>DON'T HAVE AN ACCOUNT ?</p>
+						</div>
+
+						<form id="sign-up-button">
+							<a href="signup.html"> <input type="button" value="Sign up" class="signup"/> </a>
+						</form>
+						</div>
+					</div>
+			</div>
+
+			<div id="forgot-pass" onclick="closing()"></div>
+			<div id="forgot-field">
+				<div id="close" onclick="closing()">X</div>
+				<div class="fm-email">
+					<p>Forgot Passowrd?</p>
+					<form>
+						<input type="email" placeholder="Enter Email..." /></form>
+					<form class="send">
+						<input type="submit" name="bt" class="btnforgot" value="Send" />
+					</form>
+				</div>
+			</div>
+			
+		</section>
+	
+	
+
+
+</body>
+</html>
